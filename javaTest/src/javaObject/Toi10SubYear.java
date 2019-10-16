@@ -14,8 +14,10 @@ public class Toi10SubYear {
 		int year = nenrei + umare;
 
 		System.out.println("あなたが" + nenrei + "歳の時は西暦" + year + "年です。");
-		
-		
+
+
+		str.close();
+
 		System.exit(0);
 	}
 }
