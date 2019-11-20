@@ -10,11 +10,21 @@ public class Poke10 {
 		String[] ctp = { "キャタピー", "トランセル", "バタフリー" };
 		int level = 1;
 		int shinka = 0;
-		int hp = 10;
+		//int hp = 10;
 
 		Poke10Sub sp = new Poke10Sub();
 
 		System.out.println(ctp[0] + "を捕まえた。");
+
+		Pokemon mpokemon1 = new Pokemon();
+		Pokemon ypokemon1 = new Pokemon();
+        //マイポケモン
+		mpokemon1.setlevel(3);
+		mpokemon1.setpokeName("キャタピー");
+		//野生のポケモン
+		ypokemon1.setlevel(2);
+		ypokemon1.setpokeName("ピカチュウ");
+
 
 		System.out.println(ctp[0] + "のニックネームを入力してね！");
 		Scanner scan = new Scanner(System.in);
@@ -30,6 +40,8 @@ public class Poke10 {
 
 				level++;
 				System.out.println("あ、野生のポケモンが現れた！！");
+				System.out.println("野生の" + ypokemon1.getpokeName() + "だ！");
+
 
 				//レベルが７より小さければ
 				if (level < 7) {
@@ -48,9 +60,10 @@ public class Poke10 {
 			}
 			//条件分岐shinka = 1の時
 			while (shinka == 1) {
-				
+
 				level++;
 				System.out.println("あ、野生のポケモンが現れた！！");
+				System.out.println("野生の" + ypokemon1.getpokeName() + "だ！");
 
 				//レベルがより小さい
 				if (level < 10) {
