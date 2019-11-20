@@ -16,6 +16,7 @@ public class Poke10 {
 
 		System.out.println(ctp[0] + "を捕まえた。");
 
+
 		Pokemon mpokemon1 = new Pokemon();
 		Pokemon ypokemon1 = new Pokemon();
         //マイポケモン

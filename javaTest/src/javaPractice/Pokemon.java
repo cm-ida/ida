@@ -4,7 +4,6 @@ public class Pokemon {
 
 //	public void reset() {
 //
-//
 //		pokeName = "caterpie";
 //		level = 100;
 //
